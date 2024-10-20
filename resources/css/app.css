@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: white; /* Set default text color to white */
+}
+
+/* Target all input fields and set their text color to a different color, e.g., black */
+input,
+textarea,
+select {
+    color: black; /* Change this to your preferred input text color */
+    background-color: white; /* Optional: set a background color for inputs */
+}
