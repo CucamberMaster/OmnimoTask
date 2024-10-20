@@ -1,70 +1,94 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
 # OmnimoTask
->>>>>>> 39cf0caca732ac9c389f23f8dd9cc24a868caf96
+"For the purposes of this project, I have likely ignored some security measures"
+## About
+
+OmnimoTask 
+
+## Getting Started
+
+To get your Laravel project up and running,
+
+### Prerequisites
+
+- [PHP](https://www.php.net/downloads) (version 8.1 or higher)
+- [Composer](https://getcomposer.org/download/)
+- [Node.js](https://nodejs.org/en/download/) (includes npm)
+- A web browser
+
+### Cloning the Repository
+
+To clone the repository, open your terminal and run the following command:
+
+git clone https://github.com/CucamberMaster/OmnimoTask.git
+
+Then navigate into the project directory:
+cd OmnimoTask
+
+Resolve any merge conflicts. 
+If you see conflicts in files (like README.md), open those files in a text editor, resolve the conflicts, and save your changes.
+
+Stage and commit the resolved files:
+
+git add .
+
+
+git commit -m "Resolved merge conflicts"
+
+
+Install PHP dependencies using Composer (for using this application, you need XAMPP and MariaDB):
+
+
+composer install
+
+Install front-end dependencies using npm:
+
+npm install
+
+Compile your assets (if applicable, for example, if you're using Laravel Mix):
+
+
+npm run dev
+
+Start the Laravel development server:
+
+
+php artisan serve
+
+By default, this will serve your application at http://localhost:8000.
+
+Run the database migrations (if your project uses a database):
+
+
+php artisan migrate
+
+Seed the database with initial data (if you have seeders set up):
+
+
+php artisan db:seed
+
+Access your application by navigating to http://localhost:8000 in your web browser.
+
+Login or Register
+
+If you want to log in, use the following credentials:
+
+Email: test@gmail.com
+
+Password: test
+
+Additional Notes
+Ensure your .env file is correctly configured, especially the database settings, before running migrations.
+If you face any issues during composer install or npm install, check for any error messages in the console.
+If you are unsure about merge conflicts, consider backing up your local changes before proceeding.
+
+License
+
+This project is licensed under the MIT License.
+
+### Instructions to Save the File
+1. Open a text editor (like Notepad, VSCode, or any other).
+2. Copy the text above.
+3. Paste it into the editor.
+4. Save the file as `README.md` in your project directory.
+
+Feel free to customize any parts of the text, especially the "[brief description of what your application does]" section, to better fit your project. Let me know if you need any further assistance!
